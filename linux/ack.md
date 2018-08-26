@@ -1,3 +1,21 @@
+# ack
+
+github地址[https://github.com/beyondgrep/ack2](https://github.com/beyondgrep/ack2)
+
+文档地址[http://beyondgrep.com/](http://beyondgrep.com/)
+
+## 安装
+
+### mac
+
+`brew install ack`
+
+### linux 
+
+`yum install ack`
+
+> 其他系统可以查看[https://beyondgrep.com/install/](https://beyondgrep.com/install/)安装
+
 ## ack 命令 (ack --help)
 
 用法: ack [OPTION]... PATTERN [FILES OR DIRECTORIES]
@@ -9,7 +27,7 @@
 
 ### 示例：ack -i select
 
-搜索:
+### 搜索:
 
   -i, --ignore-case             忽略PATTERN中的大小写区别
   
@@ -23,7 +41,7 @@
 
   -Q, --literal                 引用所有元字符; PATTERN是字面意思
   
-搜索输出:
+### 搜索输出:
 
   --lines=NUM                   仅打印每个文件的NUM个
 
@@ -64,7 +82,7 @@
 
   -s                            禁止有关不存在或不可读文件的错误消息
 
-文件显示:
+### 文件显示:
 
   --pager=COMMAND               通过COMMAND管道所有ack输出。
                                 例如， - pager =“less -R”。
@@ -96,7 +114,7 @@
 
   --flush                       立即刷新输出，即使非交互式使用ack（当输出到管道或文件时）
 
-文件查找:
+### 文件查找:
 
   -f                            仅打印所选文件，无需搜索。不得指定PATTERN
 
@@ -110,7 +128,7 @@
 
   -x                            读取要从STDIN搜索的文件列表
 
-文件包含/排除:
+### 文件包含/排除:
 
   --[no]ignore-dir=name         从被忽略的目录列表中添加/删除目录
 
@@ -130,7 +148,7 @@
 
   --type=noX                    排除X文件。有关支持的文件类型，请参阅“ack --help-types”
 
-文件类型规范:
+### 文件类型规范:
 
   --type-set TYPE:FILTER:FILTERARGS
                                 应用于给定FILTER的给定FILTERARGS的文件被识别为TYPE类型。这将替换类型TYPE的现有定义.
@@ -140,7 +158,7 @@
 
   --type-del TYPE               删除与TYPE关联的所有过滤器
 
-其他:
+### 其他:
   --[no]env                     忽略环境变量和全局ackrc文件
                                 --env合法但多余
 
