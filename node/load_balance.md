@@ -37,7 +37,7 @@ pm2_config.json
     "PORT: "8080"
   }
 }, {
-  "name": "app-1",
+  "name": "app-2",
   "script": "./app.js",
   "env": {
     "NODE_ENV": "production",
