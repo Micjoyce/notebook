@@ -15,6 +15,7 @@
   - [df](linux/df.md)
 
 - [node](node/index.md)
+  - [load balance](node/load_balance.md)
   - [cluster](node/cluster.md)
 
 - [eggjs学习笔记](eggjs/index.md)
