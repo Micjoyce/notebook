@@ -18,6 +18,7 @@
 - [node](node/index.md)
   - [负载均衡](node/load_balance.md)
   - [cluster](node/cluster.md)
+  - [js内存管理](node/manage-memory.md)
 
 - [eggjs学习笔记](eggjs/index.md)
   - [eggjs启动流程](eggjs/bootstrap.md)
