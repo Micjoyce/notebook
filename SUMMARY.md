@@ -14,6 +14,7 @@
   - [du](linux/du.md)
   - [df](linux/df.md)
   - [sed](linux/sed.md)
+  - [su](linux/su.md)
 
 - [node](node/index.md)
   - [负载均衡](node/load_balance.md)
