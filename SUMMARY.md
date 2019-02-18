@@ -21,8 +21,12 @@
   - [cluster](node/cluster.md)
   - [js内存管理](node/manage-memory.md)
 
+- [javascript](javascript/index.md)
+  - [vm.js](node/vm.md)
+
 - [eggjs学习笔记](eggjs/index.md)
   - [eggjs启动流程](eggjs/bootstrap.md)
+  - [eggjs单实例开发](eggjs/singleinstance.md)
 
 - [tools](tools/index.md)
   - [wrk--http性能测试](tools/wrk.md)
