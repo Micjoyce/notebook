@@ -17,7 +17,7 @@
   - [su](linux/su.md)
 
 - [http](http/index.md)
-  - [HTTP2](http/htt2.md)
+  - [HTTP2](http/http2.md)
 
 - [node](node/index.md)
   - [负载均衡](node/load_balance.md)
